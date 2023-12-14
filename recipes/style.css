@@ -2,3 +2,22 @@ body {
     font-family: 'Avenir Next', Calibri, sans-serif;
     background-color: #fde482;
 }
+
+ul, ol, a {
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul, li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul, li:before {
+    content: "\2606";
+    padding-right: 5px;
+}
