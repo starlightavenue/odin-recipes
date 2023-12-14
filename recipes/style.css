@@ -17,7 +17,7 @@ ul, li {
     text-indent: -1em;
 }
 
-ul, li:before {
+ul > li:before {
     content: "\2606";
     padding-right: 5px;
 }
