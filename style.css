@@ -3,8 +3,9 @@ body {
     background-color: #fde482;
 }
 
-h1 {
+h1, ul {
     text-align: center;
+    max-inline-size: 150%;
 }
 
 
@@ -14,14 +15,15 @@ h1 {
     margin-right: auto;
     width: 50%;
     border-radius: 8px;
-    max-height: 300px;
-    max-width: 450px;
+    height: 200px;
+    width: 300px;
 }
 
 ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+    font-size: 18px;
 }
 
 li {
