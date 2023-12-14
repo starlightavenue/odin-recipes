@@ -21,3 +21,8 @@ ul > li:before {
     content: "\2606";
     padding-right: 5px;
 }
+img {
+    border-radius: 8px;
+    height: auto;
+    width: 300px;
+}
