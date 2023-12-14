@@ -3,4 +3,21 @@ body {
     background-color: #fde482;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+li:before {
+    content: "\2606";
+    padding-right: 5px;
+}
+/*You have to use the Hex code found here: https://www.w3schools.com/charsets/ref_utf_misc_symbols.asp */
+
  
